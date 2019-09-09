@@ -20,6 +20,10 @@ h3 {
     background-size: cover;
 }
 
+.footer {
+    margin-top: 50px;
+}
+
 .img_separator {
     max-width: 100%;
 }
@@ -51,6 +55,10 @@ h3 {
 
 .section_header {
     margin-bottom: 20px;
+}
+
+.section_title {
+    color: #00586f;   
 }
 
 .about_me {
@@ -108,10 +116,6 @@ h3 {
     font-size: 16pt;
     font-weight: normal;
     color: #ffffff;
-}
-
-#section_title {
-    float: right;    
 }
 
 @media all and (max-width: 980px) {
