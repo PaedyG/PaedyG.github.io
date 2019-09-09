@@ -20,8 +20,8 @@ h3 {
     background-size: cover;
 }
 
-.divider {
-    text-align: center;
+.img_separator {
+    max-width: 100%;
 }
 
 .info_card {
@@ -38,6 +38,7 @@ h3 {
 }
 
 .divider {
+    text-align: center;
     margin: 50px 0px 50px 0px;
 }
 
