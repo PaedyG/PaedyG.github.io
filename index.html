@@ -5,45 +5,44 @@
         <meta charset="utf-8">
         <meta name="autohr" content="Patrick Gemperle">
         <!--Bootstrap-->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/custom.css">
         <!--Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" type="text/css"> 
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900,300" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,700,900" rel="stylesheet" type="text/css">
-        <!--For Internet Explorere rendering-->
+        <!--Metadata Tag for responsiveness-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--For correct IExplorer rendering-->
         <meta http-equiv="x-ua-compatible" content="ie=edge">
     </head>
     <body>
-        <!--Div for menu/navigation-->
+        <!--menu/navigation-->
         <nav id="navig_menu">
 
         </nav>
-        <!--Wrapper-Div for content-->
-        <div class="wrapper" id="wrapper">
-            <header>
-                <div class="jumbotron jumbotron-fluid" id="banner">
-                    <div class="parallax text-center" style="background-image: url(img/portrait_me.jpg); background-size: cover;">
-                        <div class="parallax-pattern-overlay">
-                            <div class="container text-center" style="height:580px;padding-top:170px;">
-                                <h2 class="display-2">Patrick Gemperle - that's me!</h2>
-                                <h3 class="display-1">Applikationsentwickler</h3>
-                            </div>
-                        </div>
+
+        <header class="page_header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+                        <h1 class="display-2">Patrick Gemperle</h1>
+                        <h2 class="display-1">Yup, that's me there!</h2>
                     </div>
                 </div>
-            </header>
+            </div>
+        </header>
+
+        <!--Wrapper-Div for content-->
+        <div class="wrapper" id="wrapper">
             <!--about-me section-->
-            <section class="about-me">
+            <section>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="heading text-center">
-                                <img class="dividerline" src="img/sep.png" alt="">
-                                <h1>About me</h1>
-                                <img class="dividerline" src="img/sep.png" alt="">
+                                <h1 class="about_me">About me</h1>
                                 <h3>Ich bin eine engagierte und kommunikative Persönlichkeit
                                         mit einer raschen Auffassungsgabe.
                                         Seit 9 Jahren als Applikationsentwickler tätig. Die in der Weiterbildung
@@ -53,19 +52,18 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                        <div class="col-lg-12 vertical_sep">
-                            <object class="vertical_sep_svg" data="..\img\vertical-sep.svg" type="image/svg+xml"></object>
-                        </div>
-                </div>
+                </div>                
             </section>
+            <section class="divider">
+                <img src="img/sep.png" alt="">  
+            </section>
+
             <!--education section-->
             <section class="section" id="education">
                 <div class="container">
                     <div class="row section_header">                        
                         <div class="col-lg-12">
-                            <object class="section_icon" data="..\img\icons\icon_education.svg" type="image/svg+xml"></object>
+                            <object class="section_icon" data="../img/icons/icon_education.svg" type="image/svg+xml"></object>
                             <h1 class="section_title">Ausbildung</h1>
                         </div>
                     </div>
@@ -106,18 +104,17 @@
                         <div class="col-md-7 col_right">1. bis 3. Primarstufe, Neukirch-Egnach</div>
                     </div>
                 </div>
-                <div class="row">
-                        <div class="col-lg-12 vertical_sep">
-                            <object class="vertical_sep_svg" data="..\img\vertical-sep.svg" type="image/svg+xml"></object>
-                        </div>
-                </div>
             </section>
+            <section class="divider">
+                <img src="img/sep.png" alt="">  
+            </section>
+
             <!--work-experience section-->
             <section class="section" id="work-experience">
                 <div class="container">
                     <div class="row section_header">                        
                         <div class="col-lg-12">
-                            <object class="section_icon" data="..\img\icons\icon_work_exp.svg" type="image/svg+xml"></object>
+                            <object class="section_icon" data="../img/icons/icon_work_exp.svg" type="image/svg+xml"></object>
                             <h1 class="section_title">Berufserfahrung</h1>
                         </div>
                     </div>
@@ -134,18 +131,17 @@
                         <div class="col-md-7 col_right">Applikationsentwickler Java, VRSG AG, St. Gallen</div> 
                     </div>
                 </div>
-                <div class="row">
-                        <div class="col-lg-12 vertical_sep">
-                            <object class="vertical_sep_svg" data="..\img\vertical-sep.svg" type="image/svg+xml"></object>
-                        </div>
-                </div>
             </section>
+            <section class="divider">
+                <img src="img/sep.png" alt="">  
+            </section>
+
             <!--further-education section-->
             <section class="section" id="further-education">
                 <div class="container">
                     <div class="row section_header">                        
                         <div class="col-lg-12">
-                            <object class="section_icon" data="..\img\icons\icon_further_edu.svg" type="image/svg+xml"></object>
+                            <object class="section_icon" data="../img/icons/icon_further_edu.svg" type="image/svg+xml"></object>
                             <h1 class="section_title">Weiterbildung</h1>
                         </div>
                     </div>
@@ -162,18 +158,17 @@
                         <div class="col-md-7 col_right">Weiterbildungskurs Java EE, Trivadis Zürich</div> 
                     </div>
                 </div>
-                <div class="row">
-                        <div class="col-lg-12 vertical_sep">
-                            <object class="vertical_sep_svg" data="..\img\vertical-sep.svg" type="image/svg+xml"></object>
-                        </div>
-                </div>
             </section>
+            <section class="divider">
+                <img src="img/sep.png" alt="">  
+            </section>
+            
             <!--linguistic-proficiency section-->
             <section class="section" id="linguistic-proficiency">
                 <div class="container">
                     <div class="row section_header">                        
                         <div class="col-lg-12">
-                            <object class="section_icon" data="..\img\icons\icon_language.svg" type="image/svg+xml"></object>
+                            <object class="section_icon" data="../img/icons/icon_language.svg" type="image/svg+xml"></object>
                             <h1 class="section_title">Sprachkenntnisse</h1>
                         </div>
                     </div>
@@ -190,18 +185,17 @@
                         <div class="col-md-7 col_right">Fliessend (Wort und Schrift)</div> 
                     </div>
                 </div>
-                <div class="row">
-                        <div class="col-lg-12 vertical_sep">
-                            <object class="vertical_sep_svg" data="..\img\vertical-sep.svg" type="image/svg+xml"></object>
-                        </div>
-                </div>
             </section>
+            <section class="divider">
+                <img src="img/sep.png" alt="">  
+            </section>
+
             <!--programming-proficiency section-->
             <section class="section" id="programming-proficiency">
                 <div class="container">
                     <div class="row section_header">                        
                         <div class="col-lg-12">
-                            <object class="section_icon" data="..\img\icons\icon_programming.svg" type="image/svg+xml"></object>
+                            <object class="section_icon" data="../img/icons/icon_programming.svg" type="image/svg+xml"></object>
                             <h1 class="section_title">Programmierkenntnisse</h1>
                         </div>
                     </div>
@@ -231,41 +225,44 @@
                         <div class="col-md-5 exp_bar_empty"></div>
                     </div>
                 </div>
-                <div class="row">
-                        <div class="col-lg-12 vertical_sep">
-                            <object class="vertical_sep_svg" data="..\img\vertical-sep.svg" type="image/svg+xml"></object>
-                        </div>
-                </div>
             </section>
+            <section class="divider">
+                <img src="img/sep.png" alt="">  
+            </section>
+            
             <!--hobbies section-->
             <section class="section" id="hobbies">
                 <div class="container">
                     <div class="row section_header">                        
                         <div class="col-lg-12">
-                            <object class="section_icon" data="..\img\icons\icon_hobby.svg" type="image/svg+xml"></object>
+                            <object class="section_icon" data="../img/icons/icon_hobby.svg" type="image/svg+xml"></object>
                             <h1 class="section_title">Hobbies & Interessen</h1>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3 hobby">
-                            <img class="img_hobby" src="..\img\card_climbing.jpg" alt="Card image climbing">
+                            <img class="img_hobby" src="../img/card_climbing.jpg" alt="Card image climbing">
                             <div class="text_hobby">Klettern/Bouldern</div>
                         </div>
                         <div class="col-md-3 hobby">
-                            <img class="img_hobby" src="..\img\card_photography_2.jpg" alt="Card image climbing">
+                            <img class="img_hobby" src="../img/card_photography_2.jpg" alt="Card image climbing">
                             <div class="text_hobby">Fotografie</div>
                         </div>
                         <div class="col-md-3 hobby">
-                            <img class="img_hobby" src="..\img\card_animals.jpg" alt="Card image climbing">
+                            <img class="img_hobby" src="../img/card_animals.jpg" alt="Card image climbing">
                             <div class="text_hobby">Tiere</div>
                         </div>
                         <div class="col-md-3 hobby">
-                            <img class="img_hobby" src="..\img\card_gaming.jpg" alt="Card image climbing">
+                            <img class="img_hobby" src="../img/card_gaming.jpg" alt="Card image climbing">
                             <div class="text_hobby">Medien & Spiele</div>
                         </div>
                     </div>
                 </div>
             </section>
+            <section class="divider">
+                <img src="img/sep.png" alt="">  
+            </section>
+
             <!--footer section-->
             <section class="footer" id="footer">
                 <div class="container">

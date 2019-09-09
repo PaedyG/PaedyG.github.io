@@ -13,29 +13,32 @@ h3 {
     font-family: 'Lato', sans-serif;
 }
 
+.page_header {
+    height: 100vh;
+    min-height: 500px;
+    background: url("../img/portrait_me.jpg"), center no-repeat;
+    background-size: cover;
+}
+
+.divider {
+    text-align: center;
+}
+
 .info_card {
     visibility: hidden;
     background-color: #00586f;
 }
 
 .display-2 {
-    color: Black;
+    color: #ffffff;
 }
 
 .display-1 {
-    color: Black;
+    color: #ffffff
 }
 
-.vertical_sep {
-    align-content: center;
-    text-align: center;
-    display: inline-block;
-    height: 200px;
-}
-
-.vertical_sep_svg {
-    display: inline-block;
-    height: 100%;
+.divider {
+    margin: 50px 0px 50px 0px;
 }
 
 .section_icon {
@@ -45,20 +48,17 @@ h3 {
     margin-right: 20px;
 }
 
-.section {
-    margin-bottom: 50px;
-}
-
 .section_header {
     margin-bottom: 20px;
 }
 
-.row_experience {
-    height: 40px;
+.about_me {
+    margin-top: 50px;
+    text-decoration: underline;
 }
 
-#section_title {
-    float: right;    
+.row_experience {
+    height: 40px;
 }
 
 .col_left {
@@ -108,5 +108,16 @@ h3 {
     font-weight: normal;
     color: #ffffff;
 }
+
+#section_title {
+    float: right;    
+}
+
+//mediaqueries
+@media all and (max-width: 1690px) { }
+@media all and (max-width: 1280px) { }
+@media all and (max-width: 980px) { }
+@media all and (max-width: 736px) { }
+@media all and (max-width: 480px) { }
 
 //custom CSS for navig_menu
