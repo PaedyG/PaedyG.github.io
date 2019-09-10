@@ -162,7 +162,6 @@ h3 {
   /*https://www.jqueryscript.net/menu/Animated-Radial-Menu-with-jQuery-CSS3-Transitions.html*/
 
 .radial-menu {
-    display: none;
     top: 15px;
     left: 15px;
     position: fixed;
