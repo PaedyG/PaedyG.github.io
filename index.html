@@ -21,12 +21,12 @@
     <body>
         <!--menu/navigation-->
         <div class="radial_menu">
-            <div class="menu_item1"><i class="menu_edu"></i></div>
-            <div class="menu_item2"><i class="menu_work_exp"></i></div>
-            <div class="menu_item3"><i class="menu_further_edu"></i></div>
-            <div class="menu_item4"><i class="menu_ling_prof"></i></div>
-            <div class="menu_item5"><i class="menu_prog_prof"></i></div>
-            <div class="menu_item6"><i class="menu_hobby"></i></div>
+            <div class="menu_item" id="menu_item1"><i class="menu_edu"></i></div>
+            <div class="menu_item" id="menu_item2"><i class="menu_work_exp"></i></div>
+            <div class="menu_item" id="menu_item3"><i class="menu_further_edu"></i></div>
+            <div class="menu_item" id="menu_item4"><i class="menu_ling_prof"></i></div>
+            <div class="menu_item" id="menu_item5"><i class="menu_prog_prof"></i></div>
+            <div class="menu_item" id="menu_item6"><i class="menu_hobby"></i></div>
             <div class="menu_home"><i class="fa fa-home fa-3x"></i></div>
         </div>
 
@@ -294,13 +294,89 @@
             
                 $("body, html").animate({
                     scrollTop: position
-                } /* speed */ );
+                } 1s);
             });
 
             //Script for Header-Text fade-in
             $(document).ready(function () {
                 $("#myname").fadeIn(5000); 
                 $("#thatsme").fadeIn(8000);
+            });
+
+            //Script for the radial-menu animations
+            $(document).ready(function() {
+                var active1 = false;
+                var active2 = false;
+                var active3 = false;
+                var active4 = false;
+                var active5 = false;
+                var active6 = false;
+    
+                $('.radial-menu').on('mousedown touchstart', function() {
+                
+                if (!active1) $(this).find('#menu-item1').css({
+                  'background-color': 'gray', 
+                  'transform': 
+                  'translate(0px,125px)'
+                });
+                else $(this).find('#menu-item1').css({
+                  'background-color': 'dimGray', 
+                  'transform': 'none'
+                }); 
+                
+                if (!active2) $(this).find('#menu-item2').css({
+                  'background-color': 'gray', 
+                  'transform': 'translate(60px,105px)'
+                });
+                else $(this).find('#menu-item2').css({
+                  'background-color': 'darkGray', 
+                  'transform': 'none'
+                });
+    
+                if (!active3) $(this).find('#menu-item3').css({
+                  'background-color': 'gray', 
+                  'transform': 'translate(105px,60px)'
+                });
+                else $(this).find('#menu-item3').css({
+                  'background-color': 'silver', 
+                  'transform': 'none'
+                });
+    
+                if (!active4) $(this).find('#menu-item4').css({
+                  'background-color': 'gray', 
+                  'transform': 'translate(125px,0px)'
+                });
+                else $(this).find('#menu-item4').css({
+                  'background-color': 'silver', 
+                  'transform': 'none'
+                });
+    
+                if (!active5) $(this).find('#menu-item5').css({
+                  'background-color': 'gray', 
+                  'transform': 'translate(125px,0px)'
+                });
+                else $(this).find('#menu-item5').css({
+                  'background-color': 'silver', 
+                  'transform': 'none'
+                });
+    
+    
+                if (!active6) $(this).find('#menu-item6').css({
+                  'background-color': 'gray', 
+                  'transform': 'translate(125px,0px)'
+                });
+                else $(this).find('#menu-item6').css({
+                  'background-color': 'silver', 
+                  'transform': 'none'
+                });
+                active1 = !active1;
+                active2 = !active2;
+                active3 = !active3;
+                active4 = !active4;
+                active5 = !active5;
+                active6 = !active6;
+    
+              });
             });
         </script>
     </body>
