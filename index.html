@@ -304,11 +304,16 @@
                 $(".radial_menu").on("mousedown touchstart", function() {
                 
                     if (!active1) 
-                        $(".section_title").css("color", "#000000");
-                    else
-                        $(".section_title").css("color", "#ffffff");
-                    
-                    /*
+                        $("#menu_item1").css({
+                            'background-color': 'gray', 
+                            'transform': 'translate(60px,105px)'
+                        });
+                    else 
+                        $("#menu_item1").css({
+                            'background-color': 'darkGray', 
+                            'transform': 'none'
+                        });
+
                     if (!active2) $("#menu_item2").css({
                       'background-color': 'gray', 
                       'transform': 'translate(60px,105px)'
