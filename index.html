@@ -13,7 +13,7 @@
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">        
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,700,900" rel="stylesheet" type="text/css">
         <!--Icons-->
-        <script src="https://kit.fontawesome.com/187439dd4f.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <!--Metadata Tag for responsiveness-->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
         <!--For correct IExplorer rendering-->
@@ -22,13 +22,13 @@
     <body>
         <!--menu/navigation-->
         <div class="radial_menu">
-            <div class="menu_item" id="menu_item1"><i class="fas fa-pencil-ruler"></i></div>
-            <div class="menu_item" id="menu_item2"><i class="fas fa-briefcase"></i></div>
-            <div class="menu_item" id="menu_item3"><i class="fas fa-user-graduate"></i></div>
-            <div class="menu_item" id="menu_item4"><i class="fas fa-comment"></i></div>
-            <div class="menu_item" id="menu_item5"><i class="fas fa-desktop"></i></div>
-            <div class="menu_item" id="menu_item6"><i class="fas fa-quidditch"></i></div>
-            <div class="menu_home"><i class="fa fa-home fa-3x"></i></div>
+            <div class="menu_item" id="menu_item1"><i class="fa fa-graduation-cap"></i></div>
+            <div class="menu_item" id="menu_item2"><i class="fa fa-briefcase"></i></div>
+            <div class="menu_item" id="menu_item3"><i class="fa fa-certificate"></i></div>
+            <div class="menu_item" id="menu_item4"><i class="fa fa-comment"></i></div>
+            <div class="menu_item" id="menu_item5"><i class="fa fa-desktop"></i></div>
+            <div class="menu_item" id="menu_item6"><i class="fa fa-gamepad"></i></div>
+            <div class="menu_home"><i class="fa fa-home fa-3x"></i><i class="fa fa-empire"></i></div>
         </div>
 
         <header class="page_header">
@@ -295,6 +295,7 @@
 
             //Script for the radial-menu animations
             $(document).ready(function() {
+                var menu_open = false;
                 var active1 = false;
                 var active2 = false;
                 var active3 = false;
@@ -304,6 +305,23 @@
     
                 $(".radial_menu").on("click", function() {
                 
+                    if (!menu_open) 
+                        $(".fa.fa-empire").css({
+                            'display': 'all', 
+                        });
+
+                        $("fa fa-home").css({
+                            'display': 'none', 
+                        });
+                    else 
+                        $("fa fa-home").css({
+                            'display': 'all', 
+                        });
+
+                        $(".fa.fa-empire").css({
+                            'display': 'none', 
+                        });
+
                     if (!active1) 
                         $("#menu_item1").css({
                             'background-color': 'gray', 
@@ -376,6 +394,7 @@
                     active4 = !active4;
                     active5 = !active5;
                     active6 = !active6;
+                    menu_open = !menu_open;
               });
             });
         </script>

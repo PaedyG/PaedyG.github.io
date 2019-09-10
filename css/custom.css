@@ -147,6 +147,10 @@ h3 {
     z-index: 19;
 }
 
+.fa.fa-empire {
+    display: none;
+}
+
 .menu_home {
     top: 15px;
     left: 15px;
