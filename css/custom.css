@@ -118,30 +118,7 @@ h3 {
 }
 
 /*Radial-Menu specific*/
-.menu_edu {
-    background: url("../img/icons/icon_education.svg"), center no-repeat;
-}
-
-.menu_work_exp {
-    background: url("../img/icons/icon_work_exp.svg"), center no-repeat;
-}
-
-.menu_further_edu {
-    background: url("../img/icons/icon_further_edu.svg"), center no-repeat;
-}
-
-.menu_ling_prof {
-    background: url("../img/icons/icon_language.svg"), center no-repeat;
-}
-
-.menu_prog_prof {
-    background: url("../img/icons/icon_programming.svg"), center no-repeat;
-}
-
-.menu_hobby {
-    background: url("../img/icons/icon_hobby.svg"), center no-repeat;
-}
-  /*https://www.jqueryscript.net/menu/Animated-Radial-Menu-with-jQuery-CSS3-Transitions.html*/
+/*https://www.jqueryscript.net/menu/Animated-Radial-Menu-with-jQuery-CSS3-Transitions.html*/
 
 .radial_menu {
     top: 15px;
@@ -178,7 +155,6 @@ h3 {
     height: 100px;
     background: #00586f;
     border-radius: 50%;
-    position: absolute;
     z-index: 21;
     color: white;
     text-align: center;
@@ -189,7 +165,6 @@ h3 {
 
 #menu_item1 {
     transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    position: absolute;
 }
   
 #menu_item2 {
@@ -210,6 +185,32 @@ h3 {
 
 #menu_item6 {
     transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .10s;
+}
+
+
+/*Menu-Icons*/
+.menu_edu {
+    background: url("../img/icons/icon_education.svg"), center no-repeat;
+}
+
+.menu_work_exp {
+    background: url("../img/icons/icon_work_exp.svg"), center no-repeat;
+}
+
+.menu_further_edu {
+    background: url("../img/icons/icon_further_edu.svg"), center no-repeat;
+}
+
+.menu_ling_prof {
+    background: url("../img/icons/icon_language.svg"), center no-repeat;
+}
+
+.menu_prog_prof {
+    background: url("../img/icons/icon_programming.svg"), center no-repeat;
+}
+
+.menu_hobby {
+    background: url("../img/icons/icon_hobby.svg"), center no-repeat;
 }
 
 /*Media-Queries*/

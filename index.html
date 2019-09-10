@@ -21,12 +21,12 @@
     <body>
         <!--menu/navigation-->
         <div class="radial_menu">
-            <div class="menu_item" id="menu_item1"><i class="menu_edu"></i></div>
-            <div class="menu_item" id="menu_item2"><i class="menu_work_exp"></i></div>
-            <div class="menu_item" id="menu_item3"><i class="menu_further_edu"></i></div>
-            <div class="menu_item" id="menu_item4"><i class="menu_ling_prof"></i></div>
-            <div class="menu_item" id="menu_item5"><i class="menu_prog_prof"></i></div>
-            <div class="menu_item" id="menu_item6"><i class="menu_hobby"></i></div>
+            <div class="menu_item" id="menu_item1"><i class="icon_edu"></i></div>
+            <div class="menu_item" id="menu_item2"><i class="icon_work_exp"></i></div>
+            <div class="menu_item" id="menu_item3"><i class="icon_further_edu"></i></div>
+            <div class="menu_item" id="menu_item4"><i class="icon_ling_prof"></i></div>
+            <div class="menu_item" id="menu_item5"><i class="icon_prog_prof"></i></div>
+            <div class="menu_item" id="menu_item6"><i class="icon_hobby"></i></div>
             <div class="menu_home"><i class="fa fa-home fa-3x"></i></div>
         </div>
 
@@ -314,7 +314,7 @@
     
                 $('.radial_menu').on('mousedown touchstart', function() {
                 
-                    if (!active1) $(this).find('#menu_item1').css({
+                    if (!active1) document.getElementById("menu_item1").css({
                       'background-color': 'gray', 
                       'transform': 'translate(0px,125px)'
                     });
