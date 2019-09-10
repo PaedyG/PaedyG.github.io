@@ -165,6 +165,7 @@ h3 {
 
 #menu_item1 {
     transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    background: url("../img/icons/icon_education.svg"), center no-repeat;
 }
   
 #menu_item2 {
