@@ -135,8 +135,7 @@ h3 {
 }
 
 .menun_icon {
-    width: 25px;
-    height: 25px;
+    object-fit: cover;
 }
 
 .menu_item {
