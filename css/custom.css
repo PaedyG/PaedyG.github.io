@@ -20,6 +20,10 @@ h3 {
     background-size: cover;
 }
 
+.header_text {
+    display: none;
+}
+
 .footer {
     margin-top: 50px;
 }

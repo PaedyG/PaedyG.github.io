@@ -34,8 +34,8 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 text-center">
-                        <h1 class="display-2">Patrick Gemperle</h1>
-                        <h2 class="display-1">Yup, that's me there!</h2>
+                        <h1 class="display-2 header_text">Patrick Gemperle</h1>
+                        <h2 class="display-1 header_text">Yup, that's me there!</h2>
                     </div>
                 </div>
             </div>
@@ -284,8 +284,9 @@
         <script src="js/tether.min.js"></script>
         <!--jQuery-->
         <script src="//code.jquery.com/jquery-2.1.4.min.js"></script> 
-        <!-- Script for smooth scrolling to anchor-->
+        <!--Custom scripts-->
         <script>
+            <!-- Script for smooth scrolling to anchor-->
             $("a[href^='#']").click(function(e) {
                 e.preventDefault();
                 
@@ -294,6 +295,11 @@
                 $("body, html").animate({
                     scrollTop: position
                 } /* speed */ );
+            });
+
+            <!-- Script for Header-Text fade-in-->
+            $(document).ready(function () {
+                $(".header_text").fadeIn(3000); 
             });
         </script>
     </body>
