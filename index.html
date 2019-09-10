@@ -297,14 +297,13 @@
                 } 1s);
             });
 
-            //Script for Header-Text fade-in
             $(document).ready(function () {
+
+            //Script for Header-Text fade-in
                 $("#myname").fadeIn(5000); 
                 $("#thatsme").fadeIn(8000);
-            });
 
             //Script for the radial-menu animations
-            $(document).ready(function() {
                 var active1 = false;
                 var active2 = false;
                 var active3 = false;
@@ -313,6 +312,8 @@
                 var active6 = false;
     
                 $(".radial_menu").on("mousedown touchstart", function() {
+
+                    $(".menu_home").css("border", "3px solid red");
                 
                     if (!active1) $("#menu_item1").css("transform", "translate(0px,125px)");
                     else $("#menu_item1").css("transform", "none"); 
