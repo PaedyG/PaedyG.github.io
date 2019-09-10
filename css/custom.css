@@ -135,7 +135,7 @@ h3 {
 }
 
 .menun_icon {
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .menu_item {
