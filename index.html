@@ -295,107 +295,22 @@
 
             //Script for the radial-menu animations
             $(document).ready(function() {
-                var menu_open = false;
-                var active1 = false;
-                var active2 = false;
-                var active3 = false;
-                var active4 = false;
-                var active5 = false;
-                var active6 = false;
+                var is_menu_open = false;
     
                 $(".radial_menu").on("click", function() {
-                
-                    if (!menu_open) {
-                        $(".fa.fa-empire").css({
-                            'display': 'all'
-                        });
 
-                        $("fa fa-home").css({
-                            'display': 'none'
-                        });
-                    } else {
-                        $("fa fa-home").css({
-                            'display': 'all'
-                        });
-
-                        $(".fa.fa-empire").css({
-                            'display': 'none'
-                        });
-                    }
-
-                    if (!active1) 
-                        $("#menu_item1").css({
+                    if (!is_menu_open) 
+                        $(".menu_item").css({
                             'background-color': 'gray', 
                             'transform': 'translate(60px,105px)'
                         });
                     else 
-                        $("#menu_item1").css({
+                        $(".menu_item").css({
                             'background-color': 'darkGray', 
                             'transform': 'none'
                         });
 
-                    if (!active2) 
-                        $("#menu_item2").css({
-                            'background-color': 'gray', 
-                            'transform': 'translate(60px,105px)'
-                        });
-                    else 
-                        $("#menu_item2").css({
-                            'background-color': 'darkGray', 
-                            'transform': 'none'
-                        });
-
-                    if (!active3) 
-                        $("#menu_item3").css({
-                            'background-color': 'gray', 
-                            'transform': 'translate(105px,60px)'
-                        });
-                    else 
-                        $("#menu_item3").css({
-                            'background-color': 'silver', 
-                            'transform': 'none'
-                        });
-
-                    if (!active4) 
-                        $("#menu_item4").css({
-                            'background-color': 'gray', 
-                            'transform': 'translate(125px,0px)'
-                        });
-                    else 
-                        $("#menu_item4").css({
-                            'background-color': 'silver', 
-                            'transform': 'none'
-                        });
-
-                    if (!active5) 
-                        $("#menu_item5").css({
-                            'background-color': 'gray', 
-                            'transform': 'translate(125px,0px)'
-                        });
-                    else
-                        $("#menu_item5").css({
-                            'background-color': 'silver', 
-                            'transform': 'none'
-                        });
-
-                    if (!active6)  
-                        $("#menu_item6").css({
-                            'background-color': 'gray', 
-                            'transform': 'translate(125px,0px)'
-                        });
-                    else 
-                        $("#menu_item6").css({
-                            'background-color': 'silver', 
-                            'transform': 'none'
-                        }); 
-
-                    active1 = !active1;
-                    active2 = !active2;
-                    active3 = !active3;
-                    active4 = !active4;
-                    active5 = !active5;
-                    active6 = !active6;
-                    menu_open = !menu_open;
+                    is_menu_open = !is_menu_open;
               });
             });
         </script>
