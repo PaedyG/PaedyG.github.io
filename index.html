@@ -315,14 +315,15 @@
                 $(".radial_menu").on("mousedown touchstart", function() {
                 
                     if (!active1) $("#menu_item1").css({
-                      'background-color': 'gray', 
-                      'transform': 'translate(0px,125px)'
+                      "background-color": "gray", 
+                      "transform": "translate(0px,125px)"
                     });
                     else $("#menu_item1").css({
-                      'background-color': 'dimGray', 
-                      'transform': 'none'
+                      "background-color": "dimGray", 
+                      "transform": "none"
                     }); 
                     
+                    /*
                     if (!active2) $("#menu_item2").css({
                       'background-color': 'gray', 
                       'transform': 'translate(60px,105px)'
@@ -366,7 +367,7 @@
                     else $("#menu_item6").css({
                       'background-color': 'silver', 
                       'transform': 'none'
-                    });
+                    }); */
                     active1 = !active1;
                     active2 = !active2;
                     active3 = !active3;
