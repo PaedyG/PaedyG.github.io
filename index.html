@@ -34,8 +34,8 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 text-center">
-                        <h1 class="display-2 header_text name">Patrick Gemperle</h1>
-                        <h2 class="display-1 header_text thatsme">Yup, that's me there!</h2>
+                        <h1 class="display-2 header_text" id="myname">Patrick Gemperle</h1>
+                        <h2 class="display-1 header_text" id="thatsme">Yup, that's me there!</h2>
                     </div>
                 </div>
             </div>
@@ -299,8 +299,8 @@
 
             //Script for Header-Text fade-in
             $(document).ready(function () {
-                $(".header_text.name").fadeIn(3000); 
-                //$(".header_text.thatsme").fadeIn(5000); 
+                $("#myname").fadeIn(3000); 
+                $("#thatsme").fadeIn(5000); 
             });
         </script>
     </body>
