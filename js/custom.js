@@ -10,18 +10,17 @@ $(document).ready(function() {
 
     $(".radial_menu").on("click", function() {
 
-        if (!is_menu_open) {
+        if (!is_menu_open)
             $(".menu_item").css({
                 'background-color': 'gray', 
                 'transform': 'translate(60px,105px)'
             });
-        } else {
+        else 
             $(".menu_item").css({
                 'background-color': 'darkGray', 
                 'transform': 'none'
             });
-        }
-        
+
         is_menu_open = !is_menu_open;
     });
 });

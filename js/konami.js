@@ -36,5 +36,5 @@ document.addEventListener('keydown', function(e) {
     $("#secret_main").show();
     $("#normal_main").hide();
   
-    alert("May the force be with you!");
+    //alert("May the force be with you!");
   }
