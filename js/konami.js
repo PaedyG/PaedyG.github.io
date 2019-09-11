@@ -6,7 +6,7 @@ var allowedKeys = {37: 'left',38: 'up',39: 'right',40: 'down',65: 'a',66: 'b'};
 var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
 
 //creating the listener
-document.addEventListener('keydown', function(e) {
+window.addEventListener('keydown', function(e) {
     //getting the value of the stroke key code from our previously initiated key-map
     var key = allowedKeys[e.keyCode];
     //getting the value of the currently required key for the KONAMI-code
