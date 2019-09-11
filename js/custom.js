@@ -15,18 +15,11 @@ $(document).ready(function() {
                 'background-color': 'gray', 
                 'transform': 'translate(60px,105px)'
             });
-
-            $("#secret_main").show();
-            $("#normal_main").hide();
-
         } else {
             $(".menu_item").css({
                 'background-color': 'darkGray', 
                 'transform': 'none'
             });
-
-            $("#secret_main").hide();
-            $("#normal_main").show();
         }
         
         is_menu_open = !is_menu_open;

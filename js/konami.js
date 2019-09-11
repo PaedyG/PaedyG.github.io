@@ -32,6 +32,9 @@ document.addEventListener('keydown', function(e) {
     
     //var audio = new Audio('audio/vader_breathing.mp3');
     //audio.play();
+
+    $("#secret_main").show();
+    $("#normal_main").hide();
   
     alert("May the force be with you!");
   }
