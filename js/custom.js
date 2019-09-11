@@ -1,11 +1,10 @@
-//Script for Header-Text fade-in
+/*-----Script for Header-Text fade-in-----*/
 $(document).ready(function () {
     $("#myname").fadeIn(3000); 
     $("#thatsme").fadeIn(5000);
 });
 
-
-//Script for the radial-menu animations
+/*-----Script for the radial-menu animations-----*/
 $(document).ready(function() {
     var is_menu_open = false;
 
