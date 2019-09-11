@@ -17,9 +17,9 @@ $(document).ready(function() {
                 'transform': 'translate(60px,105px)'
             });
 
-            $(".fa.fa-empire").fadeIn(1000);
+            $(".menu_home_secret").fadeIn(1000);
 
-            $(".fa.fa-home").css({
+            $(".menu_home").css({
                 'display': 'none'
             });
 
@@ -29,9 +29,9 @@ $(document).ready(function() {
                 'transform': 'none'
             });
 
-            $(".fa.fa-home").fadeIn(1000);
+            $(".menu_home").fadeIn(1000);
 
-            $(".fa.fa-empire").css({
+            $(".menu_home_secret").css({
                 'display': 'none'
             });
         }
