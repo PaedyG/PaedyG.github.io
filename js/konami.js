@@ -30,8 +30,8 @@ document.addEventListener('keydown', function(e) {
 //the secret function that's called after the KONAMI-Code has been successfully entered
   function activateTheForce() {
     
-    var audio = new Audio('audio/vader_breathing.mp3');
-    audio.play();
+    //var audio = new Audio('audio/vader_breathing.mp3');
+    //audio.play();
   
     alert("May the force be with you!");
   }
