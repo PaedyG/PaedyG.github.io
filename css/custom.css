@@ -147,11 +147,7 @@ h3 {
     z-index: 19;
 }
 
-.menu_home_secret {
-    display: none;
-}
-
-.menu_home {
+.menu_main {
     top: 15px;
     left: 15px;
     width: 100px;
@@ -164,6 +160,10 @@ h3 {
     line-height: 120px;
     cursor: pointer;
     position: fixed;
+}
+
+#secret_main {
+    display: none;
 }
 
 #menu_item1 {
