@@ -17,11 +17,8 @@ $(document).ready(function() {
                 'transform': 'translate(60px,105px)'
             });
 
-            $("#secret_main").fadeIn(1000);
-
-            $("#normal_main").css({
-                'display': 'none'
-            });
+            $("#secret_main").show();
+            $("#normal_main").hide();
 
         } else {
             $(".menu_item").css({
@@ -29,11 +26,8 @@ $(document).ready(function() {
                 'transform': 'none'
             });
 
-            $("#normal_main").fadeIn(1000);
-
-            $("#secret_main").css({
-                'display': 'none'
-            });
+            $("#secret_main").hide();
+            $("#normal_main").show();
         }
         
         is_menu_open = !is_menu_open;
