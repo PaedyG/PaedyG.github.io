@@ -164,6 +164,7 @@ h3 {
 
 #secret_main {
     display: none;
+    z-index: 20;
 }
 
 #menu_item1 {
