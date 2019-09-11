@@ -17,9 +17,9 @@ $(document).ready(function() {
                 'transform': 'translate(60px,105px)'
             });
 
-            $(".secret_main").fadeIn(1000);
+            $("#secret_main").fadeIn(1000);
 
-            $(".normal_main").css({
+            $("#normal_main").css({
                 'display': 'none'
             });
 
@@ -31,7 +31,7 @@ $(document).ready(function() {
 
             $("#normal_main").fadeIn(1000);
 
-            $(".secret_main").css({
+            $("#secret_main").css({
                 'display': 'none'
             });
         }
