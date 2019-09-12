@@ -5,6 +5,9 @@ var allowedKeys = {37: 'left',38: 'up',39: 'right',40: 'down',65: 'a',66: 'b'};
 //the correct sequence for the KONAMI-Code
 var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
 
+//to keep track of the current position in the sequence
+var kCodePos = 0;
+
 //creating the listener
 document.addEventListener('keydown', function(e) {
     //getting the value of the stroke key code from our previously initiated key-map
@@ -17,7 +20,7 @@ document.addEventListener('keydown', function(e) {
       //move the cursor in the KONAMI-Code Sequence forward
       kCodePos++;
   
-      //if the last key is reached, activate the secret function
+      //if the last key is reached, we activate the secret function!
       if (kCodePos == konamiCode.length) {
         activateTheForce();
         kCodePos = 0;
