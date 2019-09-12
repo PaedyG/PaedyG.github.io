@@ -146,6 +146,7 @@ a{
     border-radius: 50%;
     position: absolute;
     color: white;
+    align-content: center;
     text-align: center;
     line-height: 70px;
     top: 25%;
@@ -162,6 +163,7 @@ a{
     border-radius: 50%;
     z-index: 21;
     color: white;
+    align-content: center;
     text-align: center;
     line-height: 120px;
     cursor: pointer;
