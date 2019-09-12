@@ -1,7 +1,7 @@
 /*-----Script for Header-Text fade-in-----*/
 $(document).ready(function () {
     $("#myname").fadeIn(3000); 
-    $("#thatsme").fadeIn(5000);
+    $("#thatsme").fadeIn(4000);
 });
 
 /*-----Script for the radial-menu animations-----*/
