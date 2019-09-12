@@ -10,17 +10,21 @@ $(document).ready(function() {
 
     $(".radial_menu").on("click", function() {
 
-        if (!is_menu_open)
-            $(".menu_item").css({
-                'background-color': 'gray', 
-                'transform': 'translate(60px,105px)'
-            });
-        else 
-            $(".menu_item").css({
-                'background-color': 'darkGray', 
-                'transform': 'none'
-            });
-
+        if (!is_menu_open) {
+            for (i = 1; i < 7; i++) {
+                $("#menu_item" + i).css({
+                    'background-color': '#169bbd', 
+                    'transform': 'translate(60px,105px)'
+                });
+            }            
+        } else {
+            for (i = 1; i < 7; i++) {
+                $("#menu_item" + i).css({
+                    'background-color': 'darkGray', 
+                    'transform': 'none'
+                });   
+            }
+        }
         is_menu_open = !is_menu_open;
     });
 });

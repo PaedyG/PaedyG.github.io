@@ -29,12 +29,11 @@ document.addEventListener('keydown', function(e) {
   
 //the secret function that's called after the KONAMI-Code has been successfully entered
   function activateTheForce() {
-    
+    $("#secret_main").show();
+    $("#normal_main").hide();
+
     //var audio = new Audio('audio/vader_breathing.mp3');
     //audio.play();
 
-    $("#secret_main").show();
-    $("#normal_main").hide();
-  
     //alert("May the force be with you!");
   }
