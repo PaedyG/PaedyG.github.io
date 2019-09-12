@@ -34,9 +34,7 @@ document.addEventListener('keydown', function(e) {
 function activateTheForce() {
     $("#secret_main").show();
     $("#normal_main").hide();
-    $(".lightsaber").css({
-      'height': '100%'
-  });
+    $(".back").toggleClass("open");
 
     //var audio = new Audio('audio/vader_breathing.mp3');
     //audio.play();
