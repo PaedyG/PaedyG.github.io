@@ -8,7 +8,7 @@ $(document).ready(function () {
 $(document).ready(function() {
     var is_menu_open = false;
     var transformValues = {1: 'translate(0px,125px)',2: 'translate(60px,105px)',3: 'translate(105px,60px)'
-        ,4: 'translate(125px,0px)',5: 'translate(85px,115px)',6: 'translate(100px,10px)'};
+        ,4: 'translate(125px,0px)',5: 'translate(30px,155px)',6: 'translate(155px,30px)'};
 
     $(".radial_menu").on("click", function() {
 
@@ -20,7 +20,7 @@ $(document).ready(function() {
                 });
             }            
         } else {
-            $(".menu_item" + i).css({
+            $(".menu_item").css({
                 'background-color': 'darkGray', 
                 'transform': 'none'
             });   
