@@ -7,8 +7,8 @@ $(document).ready(function () {
 /*-----Script for the radial-menu animations-----*/
 $(document).ready(function() {
     var is_menu_open = false;
-    var transformValues = {1: 'translate(-40px,120px)',2: 'translate(0px,100px)',3: 'translate(40px,80px)'
-        ,4: 'translate(80px,60px)',5: 'translate(120px,40px)',6: 'translate(160px,20px)'};
+    var transformValues = {1: 'translate(0px,125px)',2: 'translate(60px,105px)',3: 'translate(105px,60px)'
+        ,4: 'translate(125px,0px)',5: 'translate(85px,115px)',6: 'translate(100px,10px)'};
 
     $(".radial_menu").on("click", function() {
 
@@ -20,7 +20,7 @@ $(document).ready(function() {
                 });
             }            
         } else {
-            $(".menu_item").css({
+            $(".menu_item" + i).css({
                 'background-color': 'darkGray', 
                 'transform': 'none'
             });   
