@@ -198,9 +198,18 @@ a{
 }
 
 /*-----Lightsaber-DIVs-----*/
-.lightsaber {
-    height: 460px;
-    width: 10px;
+.lightsaber_ls{
+    height: 100%;
+    width: 25px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lightsaber_rs{
+    height: 100%;
+    width: 25px;
+    float: right;
     margin-left: auto;
     margin-right: auto;
 }
