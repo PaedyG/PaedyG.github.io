@@ -13,6 +13,10 @@ h3 {
     font-family: 'Lato', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 .page_header {
     height: 100vh;
     min-height: 500px;
