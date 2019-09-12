@@ -8,7 +8,7 @@ $(document).ready(function () {
 $(document).ready(function() {
     var is_menu_open = false;
     var transformValues = {1: 'translate(0px,125px)',2: 'translate(60px,105px)',3: 'translate(105px,60px)'
-        ,4: 'translate(125px,0px)',5: 'translate(30px,185px)',6: 'translate(185px,30px)'};
+        ,4: 'translate(125px,0px)',5: 'translate(35px,180px)',6: 'translate(180px,35px)'};
 
     $(".radial_menu").on("click", function() {
 
