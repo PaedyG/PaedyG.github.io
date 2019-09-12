@@ -216,7 +216,7 @@ a{
 	-webkit-filter: blur(1px);
 	-o-filter: blur(1px);
 	-ms-filter: blur(1px);
-	height: 0;
+	height: 100%;
 }
 
 .lightside {
