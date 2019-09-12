@@ -20,12 +20,10 @@ $(document).ready(function() {
                 });
             }            
         } else {
-            for (i = 1; i < 7; i++) {
-                $("#menu_item" + i).css({
-                    'background-color': 'darkGray', 
-                    'transform': 'none'
-                });   
-            }
+            $(".menu_item").css({
+                'background-color': 'darkGray', 
+                'transform': 'none'
+            });   
         }
         is_menu_open = !is_menu_open;
     });
