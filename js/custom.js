@@ -7,8 +7,8 @@ $(document).ready(function () {
 /*-----Script for the radial-menu animations-----*/
 $(document).ready(function() {
     var is_menu_open = false;
-    var transformValues = {1: 'translate(-20px,140px)',2: 'translate(0px,120px)',3: 'translate(20px,100px)'
-        ,4: 'translate(40px,80px)',5: 'translate(60px,60px)',6: 'translate(80px,40px)'};
+    var transformValues = {1: 'translate(-40px,120px)',2: 'translate(0px,100px)',3: 'translate(40px,80px)'
+        ,4: 'translate(80px,60px)',5: 'translate(120px,40px)',6: 'translate(160px,20px)'};
 
     $(".radial_menu").on("click", function() {
 
