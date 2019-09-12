@@ -32,7 +32,7 @@ document.addEventListener('keydown', function(e) {
   
 //the secret function that's called after the KONAMI-Code has been successfully entered
 function activateTheForce() {
-    $("#secret_main").show();
+    //$("#secret_main").show();
     $("#normal_main").hide();
     $(".back").toggleClass("open");
 
