@@ -13,15 +13,15 @@ $(document).ready(function() {
     $(".radial_menu").on("click", function() {
 
         if (!is_menu_open) {
+            $("#menu_item" + i).show();
             for (i = 1; i < 7; i++) {
                 $("#menu_item" + i).css({
-                    'background-color': '#169bbd', 
                     'transform': transformValues[i]
                 });
             }            
         } else {
+            $("#menu_item" + i).hide();
             $(".menu_item").css({
-                'background-color': 'darkGray', 
                 'transform': 'none'
             });   
         }

@@ -151,6 +151,7 @@ a{
     top: 25%;
     left: 25%;
     z-index: 19;
+    display: none;
 }
 
 .menu_main {
