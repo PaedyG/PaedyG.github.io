@@ -106,8 +106,10 @@ a:hover{
 
 .hobby {
     position: relative;
-    max-height: 750px;
-    max-width: 550px;
+    height: 550px;
+    width: 350px;
+    max-height: 550px;
+    max-width: 350px;
     padding: 5px;
     align-content: center;
     text-align: center;
