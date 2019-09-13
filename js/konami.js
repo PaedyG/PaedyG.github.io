@@ -9,6 +9,9 @@ var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 
 //to keep track of the current position in the sequence
 var kCodePos = 0;
 
+// to keep track if the easter-egg is active
+var isTheForceStrong = false;
+
 //creating the listener
 document.addEventListener('keydown', function(e) {
     //getting the value of the stroke key code from our previously initiated key-map
@@ -33,10 +36,19 @@ document.addEventListener('keydown', function(e) {
   
 //the secret function that's called after the KONAMI-Code has been successfully entered
 function activateTheForce() {
+  if (isTheForceStrong) {
+    $("#secret_main").hide();
+    $("#normal_main").show();
+    
+    var audio = new Audio('../audio/lightsaber_reversed.mp3');
+    audio.play();
+  } else {
     $("#secret_main").show();
     $("#normal_main").hide();
-    $(".back").toggleClass("open");
-
-    var audio = new Audio('audio/lightsaber.mp3');
+    var audio = new Audio('../audio/lightsaber.mp3');
     audio.play();
+  } 
+  
+  $(".back").toggleClass("open");
+  isTheForceStrong = !isTheForceStrong;
 }
