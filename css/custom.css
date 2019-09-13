@@ -211,12 +211,14 @@ a:hover{
 .lightsaber_ls{
     height: 100%;
     width: 25px;
+    margin-left: 5px;
     float: left;
 }
 
 .lightsaber_rs{
     height: 100%;
     width: 25px;
+    margin-right: 5px;
     float: right;
 }
 
