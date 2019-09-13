@@ -124,11 +124,6 @@ a:hover{
     text-align: center;
 }
 
-.image_hobby {
-    height: 100%;
-    width: 100%;
-}
-
 .text_hobby {
     width: 100%;
     bottom: 25%;
@@ -140,6 +135,26 @@ a:hover{
     font-size: 16pt;
     font-weight: normal;
     color: #ffffff;
+}
+
+#hby_climbing {
+    background: url("../img/card_climbing.jpg"), center no-repeat;
+    background-size: cover;
+}
+
+#hby_photography {
+    background: url("../img/card_photography.jpg"), center no-repeat;
+    background-size: cover;
+}
+
+#hby_animals {
+    background: url("../img/card_animals.jpg"), center no-repeat;
+    background-size: cover;
+}
+
+#hby_gaming {
+    background: url("../img/card_gaming.jpg"), center no-repeat;
+    background-size: cover;
 }
 
 
