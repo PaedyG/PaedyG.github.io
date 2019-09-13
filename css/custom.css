@@ -19,7 +19,6 @@ a{
 }
 
 .page_header {
-    height: 100vh;
     min-height: 500px;
     background: url("../img/header/portrait_me.jpg"), center no-repeat;
     background-size: cover;
