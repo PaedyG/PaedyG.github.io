@@ -110,7 +110,10 @@ a:hover{
     height: 30px;
 }
 
-
+#hobbies {
+    align-content: center;
+    text-align: center;
+}
 
 /*-----Hobby-Divs-----*/
 .hobby {
