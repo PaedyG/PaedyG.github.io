@@ -36,6 +36,6 @@ function activateTheForce() {
     $("#normal_main").hide();
     $(".back").toggleClass("open");
 
-    //var audio = new Audio('audio/vader_breathing.mp3');
-    //audio.play();
+    var audio = new Audio('audio/lightsaber.mp3');
+    audio.play();
 }
