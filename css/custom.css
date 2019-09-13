@@ -239,13 +239,13 @@ a:hover{
     position: fixed;
 }
 
-.lightsaber.ls{
+#lightsaber_ls{
     height: 100%;
     width: 25px;
     float: left;
 }
 
-.lightsaber.rs{
+#lightsaber_rs{
     height: 100%;
     width: 25px;
     float: right;
