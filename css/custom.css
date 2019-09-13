@@ -235,17 +235,19 @@ a:hover{
 
 
 /*-----Lightsaber-Divs-----*/
-.lightsaber_ls{
+.lightsaber {
+    position: fixed;
+}
+
+.lightsaber.ls{
     height: 100%;
     width: 25px;
-    margin-left: 5px;
     float: left;
 }
 
-.lightsaber_rs{
+.lightsaber.rs{
     height: 100%;
     width: 25px;
-    margin-right: 5px;
     float: right;
 }
 
