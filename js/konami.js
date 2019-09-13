@@ -38,6 +38,4 @@ function activateTheForce() {
 
     //var audio = new Audio('audio/vader_breathing.mp3');
     //audio.play();
-
-    alert("May the force be with you!");
 }

@@ -102,8 +102,9 @@ a{
 
 .hobby {
     position: relative;
-    height: 200px;
+    height: 350px;
     padding: 5px;
+    text-align: center;
 }
 
 .img_hobby {
