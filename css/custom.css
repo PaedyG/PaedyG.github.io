@@ -240,6 +240,8 @@ a:hover{
 /*-----Lightsaber-Divs-----*/
 .lightsaber {
     position: fixed;
+    width: auto;
+    height: auto;
 }
 
 #lightsaber_ls{
