@@ -18,6 +18,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: #00586f;
+}
+
 .page_header {
     min-height: 1000px;
     background: url("../img/header/portrait_me.jpg"), center no-repeat;
