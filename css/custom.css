@@ -88,12 +88,10 @@ a:hover{
 }
 
 .col_right {
+    text-align: center;
+    vertical-align: middle;
     font-weight: normal;
     font-size: 18pt;
-}
-
-.col_hyphen {
-    width: 35px;
 }
 
 .row_experience {
@@ -113,11 +111,12 @@ a:hover{
 }
 
 .exp_bar_value {
-    color: #ffffff;
-    font-family: "Raleway", sans-serif;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
 }
 
 #hobbies {
