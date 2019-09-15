@@ -44,9 +44,12 @@ a:hover{
 }
 
 .footer {
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
+#mailto_me {
+    color: #00586f;
+}
 
 
 /*-----Sections-----*/
@@ -55,6 +58,7 @@ a:hover{
     height: 50px;
     float: left;
     margin-right: 20px;
+    margin-top: 8px;
     color: #00586f;
 }
 
@@ -63,7 +67,8 @@ a:hover{
 }
 
 .section_title {
-    color: #00586f;   
+    color: #00586f;
+    word-break: break-all;
 }
 
 .section_title.about_me {
@@ -129,33 +134,21 @@ a:hover{
     overflow: hidden;
   }
 
-#hobbies {
-    align-content: center;
-    text-align: center;
-}
-
 /*-----Hobby-Divs-----*/
 .hobby {
     height: 450px;
-    width: 350px;
     max-height: 450px;
-    max-width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    align-content: center;
-    text-align: center;
 }
 
 .text_hobby {
     width: 100%;
-    bottom: 25%;
+    bottom: 15%;
     left: 50%;
     position: absolute;
     text-align:center;
     transform: translate(-50%, -50%);
     font-family: 'Lato', sans-serif;
-    font-size: 16pt;
+    font-size: 32pt;
     font-weight: normal;
     color: #ffffff;
 }
@@ -357,6 +350,22 @@ a:hover{
         background: url("../img/header/portrait_me_980px.jpg"), center no-repeat;
         background-size: cover;
     }
+
+    .radial_menu {
+        height: 75px;
+        width: 75px;
+    }
+    
+    .menu_main {
+        height: 75px;
+        width: 75px;
+        line-height: 98px;
+    }
+
+    .menu_item {
+        width: 70%;
+        height: 70%;
+    }
 }
 
 @media all and (max-width: 736px) { 
@@ -365,9 +374,5 @@ a:hover{
         min-height: 500px;
         background: url("../img/header/portrait_me_736px.jpg"), center no-repeat;
         background-size: cover;
-    }
-
-    .span_exp {
-        display: block;
     }
 }
