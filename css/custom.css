@@ -32,7 +32,9 @@ a:hover{
 }
 
 .header_text {
+    margin-top: 75px;
     display: none;
+    text-shadow: 2px 2px #000000;
 }
 
 .display-2 {
@@ -50,6 +52,11 @@ a:hover{
 #mailto_me {
     color: #00586f;
 }
+
+#thatsme {
+    margin-top: 150px;
+}
+
 
 
 /*-----Sections-----*/
