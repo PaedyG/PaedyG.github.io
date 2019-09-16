@@ -40,7 +40,7 @@ function activateTheForce() {
     $("#secret_main").hide();
     $("#normal_main").show();
     
-    var audio = new Audio('../audio/lightsaber_reversed.mp3');
+    var audio = new Audio('../audio/hello-there.mp3');
     audio.play();
   } else {
     $("#secret_main").show();
