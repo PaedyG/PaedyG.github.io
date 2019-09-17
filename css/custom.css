@@ -1,6 +1,11 @@
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 h1 {
     font-family: "Raleway", sans-serif;
 }
@@ -10,6 +15,10 @@ h2 {
 }
 
 h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
     font-family: 'Lato', sans-serif;
 }
 
