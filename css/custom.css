@@ -13,13 +13,13 @@ h3 {
     font-family: 'Lato', sans-serif;
 }
 
-a{
-    color: #ffffff;
-    text-decoration: none;
+a {
+    color: #00586f;
+    text-decoration: underline;
 }
 
 a:hover{
-    color: #00586f;
+    color: #a0b0b6;
 }
 
 
@@ -47,10 +47,6 @@ a:hover{
 
 .footer {
     margin-top: 75px;
-}
-
-#mailto_me {
-    color: #00586f;
 }
 
 #thatsme {
@@ -106,6 +102,9 @@ a:hover{
     font-size: 18pt;
 }
 
+
+
+/*-----Work-Experience Bars-----*/
 .experience {
     margin-bottom: 15px;
 }
@@ -135,6 +134,8 @@ a:hover{
     position: relative;
     overflow: hidden;
   }
+
+
 
 /*-----Hobby-Divs-----*/
 .hobby {
@@ -177,6 +178,22 @@ a:hover{
 
 
 
+/*-----Contactdata-Modal-----*/
+.modal-body {
+    text-align: center;
+}
+
+.modal-title {
+    color: #00586f;
+    margin-top: -5px;
+}
+
+.colored_icon {
+    color: #00586f;
+}
+
+
+
 /*-----Radial-Menu specific-----*/
 .radial_menu {
     top: 15px;
@@ -204,6 +221,15 @@ a:hover{
     top: 25%;
     left: 25%;
     z-index: 19;
+}
+
+.menu_icon{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu_icon:hover{
+    color: #00586f;
 }
 
 .menu_main {
