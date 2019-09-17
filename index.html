@@ -48,7 +48,7 @@
             </div>
         </div>
 
-        <header class="page_header">
+        <header class="page_header"  title="A portrait of Patrick Gemperle">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 text-center">
@@ -253,18 +253,18 @@
                     </div>
                     <!-- TODO lower resolution of images to reduce filesize-->
                     <div class="row">
-                        <div class="col-md-6 hobby" id="hby_climbing">
+                        <div class="col-md-6 hobby" id="hby_climbing" title="A picture of someone climbing">
                             <h3 class="text_hobby">Klettern/Bouldern</h3>
                         </div>
-                        <div class="col-md-6 hobby" id="hby_photography">
+                        <div class="col-md-6 hobby" id="hby_photography" title="A picture of someone handling a camera">
                             <h3 class="text_hobby">Fotografie</h3>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 hobby" id="hby_animals">
+                        <div class="col-md-6 hobby" id="hby_animals" title="A picture of a Pitbull">
                             <h3 class="text_hobby">Tiere</h3>
                         </div>
-                        <div class="col-md-6 hobby" id="hby_gaming">
+                        <div class="col-md-6 hobby" id="hby_gaming" title="A picture of someone infront of a Computer">
                             <h3 class="text_hobby">Medien & Spiele</h3>
                         </div>
                     </div>
@@ -276,10 +276,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            <p class="text-center">Design by <a id="mailto_me" data-toggle="modal" data-target="#contactdata_modal">Patrick Gemperle</a></p>
+                            <p class="text-center">Design by <a data-toggle="modal" data-target="#contactdata_modal">Patrick Gemperle</a></p>
                         </div>
                     </div>
-
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p class="text-center"><a data-toggle="modal" data-target="#credits_modal">Credits</a></p>
+                        </div>
+                    </div>
+                    <!--Modal for contactdata-->
                     <div class="modal fade" id="contactdata_modal" role="dialog">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -304,6 +309,24 @@
                             </div>
                         </div>
                     </div>
+                    <!--Modal for image-credits-->
+                    <div class="modal fade" id="credits_modal" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                      <h1 class="col-12 modal-title text-center"><i class="colored_icon fa fa-gavel" style="margin-right: 10px;"></i>Picture-Credits</h1>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p>"Header-Image/Portrait", Photo by <a href="https://killeg.github.io/">Dino Lendi</a></p>
+                                      <p>"Climbing", Photo by Blake Cheek on <a href="https://unsplash.com/photos/N50XXKaPnII">Unsplash</a></p>
+                                      <p>"Pitbull", Photo by Vitor Fontes on <a href="https://unsplash.com/photos/dqlL-ZMjedo">Unsplash</a></p>
+                                      <p>"Photography", Photo by William Bayreuther on <a href="https://unsplash.com/photos/hfk6xOjQlFk">Unsplash</a></p>
+                                      <p>"Gaming", Photo by Fredrick Tendong on <a href="https://unsplash.com/photos/-GMUHeFuJUs">Unsplash</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </section>
         </div>
