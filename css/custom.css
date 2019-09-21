@@ -88,6 +88,10 @@ a:hover{
     text-decoration: underline;
 }
 
+.about_me_text {
+    font-size: 16pt;
+}
+
 .divider {
     text-align: center;
     margin: 50px 0px 50px 0px;
@@ -108,7 +112,7 @@ a:hover{
     text-align: center;
     vertical-align: middle;
     font-weight: normal;
-    font-size: 18pt;
+    font-size: 16pt;
 }
 
 
