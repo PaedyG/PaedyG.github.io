@@ -203,11 +203,26 @@ a:hover{
 
 
 
-/*-----Radial-Menu specific-----*/
+/*-----Radial-Menu & Contact-Button specific-----*/
 .radial_menu {
     top: 15px;
     left: 15px;
     position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: 20;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.contact_button {
+    top: 15px;
+    right: 15px;
+    position: fixed;
+    float: right;
     width: 100px;
     height: 100px;
     background-color: transparent;
@@ -244,6 +259,21 @@ a:hover{
 .menu_main {
     top: 15px;
     left: 15px;
+    width: 100px;
+    height: 100px;
+    background: #00586f;
+    border-radius: 50%;
+    z-index: 21;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    cursor: pointer;
+    position: fixed;
+}
+
+.contact_icon {
+    top: 15px;
+    right: 15px;
     width: 100px;
     height: 100px;
     background: #00586f;
@@ -388,6 +418,12 @@ a:hover{
         background-size: cover;
     }
 
+    .section_icon {
+        width: 25px;
+        height: 25px;
+        margin-top: 0;
+    }
+
     .section_title {
         font-size: 1.7em;
     }
@@ -396,8 +432,19 @@ a:hover{
         height: 75px;
         width: 75px;
     }
+
+    .contact_button {
+        height: 75px;
+        width: 75px;
+    }
     
     .menu_main {
+        height: 75px;
+        width: 75px;
+        line-height: 98px;
+    }
+
+    .contact_icon {
         height: 75px;
         width: 75px;
         line-height: 98px;
